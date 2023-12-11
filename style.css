@@ -5,26 +5,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* ========for main div Section */
 .card-wrapper{
     /* display: flex; */
     /* justify-content: center; */
     align-items: center;
     width: 300px;
-    min-height: 80vh;
+    min-height:68vh;
     margin: 80px auto;
     box-shadow: 0 0 25px rgba(179, 177, 177, 0.385);
     border-radius:10px;
     font-family: 'Red Hat Display', sans-serif;
     background-color: #fff;
-    
-    /* border-top-left-radius:10px; */
-    
+    /* border-top-left-radius:10px; */    
 }
+/* ======================================================== */
 .card-wrapper img{
     width: 100%;
     border-top-right-radius:10px;
     border-top-left-radius:10px;
 }
+/* =================for heading section===================== */
 h1{
     text-align: center;
     padding: 5px;
@@ -33,7 +34,9 @@ h1{
 h4{
     font-size: 14px;
 }
+/* ====================================================== */
 
+/* ================for paragraph========================= */
 p{
     text-align: center;
     padding: 10px 20px;
@@ -43,7 +46,8 @@ p{
     font-size: 14px;
     line-height: 1.2;
 }
-
+/* ============================================================ */
+/* =====================payment section========== */
 .plan{
     display: flex;
     align-items: center;
@@ -54,12 +58,14 @@ p{
     margin: 00px 30px;
     border-radius: 10px;
     padding: 10px;
-
 }
+/* =========payment rate========================== */
 .plan .rate{
     font-size: 14px;
     color: hsl(224, 23%, 55%);
 }
+/* ================================================== */
+/* ============Change plan============================== */
 .plan .change{
     text-decoration: none;
     font-weight: 700;
@@ -68,12 +74,15 @@ p{
     font-size: 14px;
     color: hsl(245, 75%, 52%);
 }
+/* =============================================== */
+/* ========Start Button Section========== */
 .buttons{
     display: flex;
     flex-direction: column;
     margin: 10px 30px;
     
 }
+/* ============for payment proceed button ======== */
 .buttons .proceed-payment{
     padding: 10px;
     color: #fff;
@@ -84,6 +93,8 @@ p{
     /* box-shadow: 0px 0px 10px hsl(225, 100%, 98%); */
     box-shadow: 0    10px   10px rgba(176, 196, 222, 0.501);
 }
+/* =================================================== */
+/* ==========for cancel button======= */
 .buttons .cancel-order{
     padding: 10px;
     margin-top: 5px;
@@ -91,13 +102,16 @@ p{
     border: none;
     background-color: transparent;
    color: rgb(31, 31, 177);
-   
 }
+/* ===================================== */
 .proceed-payment{
     color: #fff;
-   
 }
+/* ======End  Button Section======= ======*/
+
+/* ===== Start for background============= */
 body{
+    min-height: 100vh;
     background-color: hsl(225, 100%, 94%);
     background-image:url("./images/pattern-background-desktop.svg");
     background-repeat: no-repeat;
@@ -105,6 +119,10 @@ body{
     background-position: top;
     
 }
+/* =====Ends Background============= */
+
+
+/* ========start Attribute Section====== */
 .attribution a{
  color:  gray;
  text-decoration: none;
@@ -114,6 +132,8 @@ body{
     margin-top: -75px;
     font-size: 13px;
 }
+/* =========Ends Attribute section======= */
+
 @media (min-width:375px) {
 
 }

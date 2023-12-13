@@ -134,7 +134,16 @@ body{
 }
 /* =========Ends Attribute section======= */
 
-@media (min-width:375px) {
+@media (max-width:520px) {
+    body{
+        min-height: 100vh;
+        background-color: hsl(225, 100%, 94%);
+        background-image:url("./images/pattern-background-mobile.svg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: top;
+        
+    }
 
 }
     
